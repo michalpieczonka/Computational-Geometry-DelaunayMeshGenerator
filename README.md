@@ -20,6 +20,7 @@ The algorithms on which the application is based are described in the Applied al
 >
 ## Applied algorithms
 *Sobel Edge Detection (Sobel filter) 
+>
 A simplified version based on the colors (gray) of individual pixels. Used in the first stage of mesh creation to determine the edges
 (which are a very large list of points) of each grain based on the change in the shade of gray. 
 The use of the algorithm makes it possible to easily generate a set of points for the next algorithm,
@@ -27,6 +28,7 @@ The use of the algorithm makes it possible to easily generate a set of points fo
 The use of this algorithm also allows to obtain a clear visualization of the generated mesh in an external program (based on edges - i.e. a list of points). 
 >
 *Delaunay Triangulation 
+>
 Algorithm used to create the correct, final triangular mesh.
 
 ## Main panel appearance
